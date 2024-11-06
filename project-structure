@@ -1,0 +1,22 @@
+digital-base/
+├── frontend/                # Vue3前端项目
+│   ├── src/
+│   │   ├── assets/         # 静态资源
+│   │   ├── components/     # 组件
+│   │   ├── views/          # 页面
+│   │   ├── router/         # 路由
+│   │   ├── store/          # 状态管理
+│   │   ├── api/            # API接口
+│   │   └── App.vue         # 根组件
+├── backend/                 # SpringBoot后端项目
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/digitalbase/
+│   │   │   │   ├── controller/    # 控制器
+│   │   │   │   ├── service/       # 服务层
+│   │   │   │   ├── repository/    # 数据访问层
+│   │   │   │   ├── entity/        # 实体类
+│   │   │   │   └── config/        # 配置类
+│   │   │   └── resources/
+│   │   │       └── application.yml # 配置文件
+└── docs/                    # 项目文档 

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* 全局字体大小设置 */
+.el-table {
+  font-size: 14px !important;
+}
+
+.el-tree {
+  font-size: 14px !important;
+}
+
+.el-input {
+  font-size: 14px !important;
+} 
